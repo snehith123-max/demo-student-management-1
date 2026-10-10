@@ -51,3 +51,17 @@ class Student {
         }
         else {
             System.out.println("Grade      : F");
+        }
+
+    if (attendance >= 75 && marks >= 40) {
+            System.out.println("Result     : PASS");
+        }
+        else {
+            System.out.println("Result     : FAIL");
+        }
+
+        System.out.println("==============================");
+
+        sc.close();
+    }
+}
